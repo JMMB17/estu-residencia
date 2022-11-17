@@ -37,7 +37,7 @@ const theme = createTheme();
 export default function Form() {
   const router = useRouter();
   const handleSubmit = (event) => {
-    event.preventDefault()
+    event.preventDefault();
     router.push("/arrendatario");
   };
 

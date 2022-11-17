@@ -6,9 +6,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function Solicitudes() {
+export default function Solicitud() {
   return (
-    <Card sx={{ maxWidth: 345 }} style={{ margin: "1em 1em 1em 1em" }}>
+    <Card sx={{ maxWidth: 450 }} style={{ margin: "1em 1em 1em 1em" }}>
       <CardMedia
         component="img"
         height="140"
